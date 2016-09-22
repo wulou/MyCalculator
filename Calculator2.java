@@ -25,7 +25,7 @@ public class Calculator2 extends JFrame implements ActionListener {
     /** 计算器左边的M的按钮 */  
     private JButton m[] = new JButton[M.length];  
     /** 计算结果文本框 */  
-    private JTextField resultText = new JTextField("");  
+    private JTextField resultText = new JTextField(""); //去掉了默认的零 
   
     // 标志用户按的是否是整个表达式的第一个数字,或者是运算符后的第一个数字  
     private boolean firstDigit = true;  
